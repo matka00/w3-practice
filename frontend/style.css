@@ -45,9 +45,12 @@ header nav button{
 
     background-color: #e3e0cc;
 }
-
+/*Homework: I added display, justify-content and align-items*/
 div{
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div.first {
