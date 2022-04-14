@@ -22,35 +22,61 @@ header{
 #logo,
 header nav{
     display: inline-block;
-
+    
     width: 49%;
     height: 100%;
 }
 
 header nav a{
     display: block;
-
+    
     width: 100px;
     height: 100%;
 }
 
 header nav button{
     position: absolute;
-
+    
     width: 60px;
     height: 60px;
-
+    
     top: 0;
     right: 0;
-
+    
     background-color: #e3e0cc;
 }
+
+.image-container{
+    overflow: hidden;
+}
+
+.image-container img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.bg-container{
+    padding: 40px;
+
+    background-image: url("https://codecool.com/wp-content/uploads/2021/09/Home-Header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.gradient{
+    background-image: linear-gradient(red, blue);
+}
+
+
 /*Homework: I added display, justify-content and align-items*/
 div{
     box-sizing: border-box;
-    display: flex;
+    /*display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
 }
 
 div.first {
